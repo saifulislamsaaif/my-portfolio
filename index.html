@@ -54,10 +54,11 @@
         </p>
         <p class="about-text">
           I'm currently a Software Consultant at Sigma Technology Software Solutions, working with
-          IMI Supply Chain Solutions on warehouse management and automation. My focus is building a
-          simulation and unit-testing framework for a pick order release engine, using real customer-like
+          IMI Supply Chain Solutions on warehouse management and automation. My work spans the pick
+          order release engine and its simulation/testing framework, data-warehouse export integrations,
+          third-party warehouse-automation integrations, and internal tooling — using real customer-like
           data (Excel → JSON), parallel processing, and .NET back-end services to make warehouse
-          processes more robust and predictable.
+          operations more robust, traceable, and predictable.
         </p>
         <p class="about-text">
           Previously, I worked at ALTEN Sweden as a System Consultant, contributing to a large-scale
@@ -86,15 +87,15 @@
         </div>
         <div class="skill-card">
           <h3>Data &amp; Databases</h3>
-          <p>SQL Server, PL/SQL, Database Optimization, Data Migration</p>
+          <p>SQL Server, Oracle PL/SQL, Database Optimization, Data Migration</p>
         </div>
         <div class="skill-card">
           <h3>Cloud &amp; DevOps</h3>
-          <p>Azure (Container Apps, SQL, Blob Storage, Key Vault), Docker, Kubernetes</p>
+          <p>Azure (Container Apps, SQL, Blob Storage, Key Vault), Docker, Kubernetes, Azure DevOps</p>
         </div>
         <div class="skill-card">
           <h3>Specialties</h3>
-          <p>WMS, Blockchain (Hyperledger Fabric), Simulation &amp; Testing Frameworks, REST APIs</p>
+          <p>WMS, Warehouse-Automation Integrations, Blockchain (Hyperledger Fabric), Simulation &amp; Testing Frameworks, REST APIs, Audit &amp; Authorization Systems</p>
         </div>
       </div>
       <div class="languages">
@@ -117,10 +118,12 @@
           </div>
           <p class="timeline-company">Sigma Technology Software Solutions</p>
           <ul>
-            <li>Built a Python-based pipeline transforming real customer data from Excel to JSON for realistic, data-driven one-day simulation scenarios.</li>
-            <li>Collaborated on optimizing the pick order release algorithm (prioritization, thresholds, consolidation rules) based on simulation results.</li>
-            <li>Implemented parallel JSON data loading and processing across persistent storage and in-memory structures to better reflect production behavior.</li>
-            <li>Extended and maintained unit tests for release logic and infrastructure, improving reliability and catching edge cases early.</li>
+            <li>Built a simulation and regression-testing framework for the pick order release engine — Excel-to-JSON test data pipelines, mocked data-access layers, and parallelized multi-day simulation runs — enabling safe refactoring of legacy release logic.</li>
+            <li>Refactored core release-engine and consolidation logic, including extracting auto-consolidation decisions into an independently testable component, guided by static-analysis findings and covered by new unit tests.</li>
+            <li>Extended integration with third-party warehouse-automation (robotics) systems, including grouped pick-order handling and related fixes.</li>
+            <li>Owned and extended a customer data-export subsystem: modernized secure file transfer, centralized authentication/configuration, closed a data-privacy gap, added streaming for large exports, and delivered several new data-warehouse export feeds.</li>
+            <li>Diagnosed and resolved production defects across pick, replenishment, and consolidation logic.</li>
+            <li>Built an end-to-end audit logging system for an internal authorization-management tool — a persistent, diff-based audit trail, automatic log rotation and backup, and real-time operational visibility in the UI.</li>
           </ul>
         </div>
 
