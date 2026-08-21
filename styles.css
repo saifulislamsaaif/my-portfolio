@@ -218,14 +218,6 @@ body {
 .about-grid { display: grid; gap: 1.25rem; max-width: 760px; }
 .about-text { color: var(--color-text-muted); margin: 0; }
 
-.honors-list {
-  margin: 1rem 0 0;
-  padding-left: 1.25rem;
-  color: var(--color-text-muted);
-}
-
-.honors-list li { margin-bottom: 0.4rem; }
-
 /* Skills */
 .skills-grid {
   display: grid;
