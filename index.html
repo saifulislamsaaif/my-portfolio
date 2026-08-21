@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md Saiful Islam — Software Consultant</title>
+<meta name="description" content="Md Saiful Islam — Software Consultant specializing in back-end development, database optimization, and simulation-driven systems.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#home" class="logo">Md Saiful Islam</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="btn-nav">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <p class="hero-eyebrow">Software Consultant · Back-End Development &amp; Simulation</p>
+      <h1>Md Saiful Islam</h1>
+      <p class="hero-subtitle">Building robust back-end systems, optimized databases, and simulation-driven engineering for warehouse automation and beyond.</p>
+      <p class="hero-location">Malmö, Skåne County, Sweden</p>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          With over 15 years of experience in software development, I specialize in back-end engineering,
+          database architecture, performance optimization, and simulation-driven systems.
+        </p>
+        <p class="about-text">
+          I'm currently a Software Consultant at Sigma Technology Software Solutions, working with
+          IMI Supply Chain Solutions on warehouse management and automation. My focus is building a
+          simulation and unit-testing framework for a pick order release engine, using real customer-like
+          data (Excel → JSON), parallel processing, and .NET back-end services to make warehouse
+          processes more robust and predictable.
+        </p>
+        <p class="about-text">
+          Previously, I worked at ALTEN Sweden as a System Consultant, contributing to a large-scale
+          internal platform at Meta and developing cloud-native back-end APIs for the NIOX VERO medical
+          device ecosystem. Before that, I led development of a blockchain-based proxy voting platform for
+          NuArca, built on IBM Hyperledger Fabric for large financial institutions.
+        </p>
+        <ul class="honors-list">
+          <li>Employee of the Year — 2017</li>
+          <li>Employee of the Year — 2018</li>
+          <li>Volvo Hackathon 2022 — The Assembly Line</li>
+          <li>Finalist, Code Warriors' Challenge 2011</li>
+          <li>National ICT Internship Program, Ministry of Science &amp; ICT, Bangladesh</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Backend &amp; Languages</h3>
+          <p>C#, .NET, Python, Go (Golang), Java, T-SQL</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data &amp; Databases</h3>
+          <p>SQL Server, PL/SQL, Database Optimization, Data Migration</p>
+        </div>
+        <div class="skill-card">
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Azure (Container Apps, SQL, Blob Storage, Key Vault), Docker, Kubernetes</p>
+        </div>
+        <div class="skill-card">
+          <h3>Specialties</h3>
+          <p>WMS, Blockchain (Hyperledger Fabric), Simulation &amp; Testing Frameworks, REST APIs</p>
+        </div>
+      </div>
+      <div class="languages">
+        <span class="tag">Bangla — Native</span>
+        <span class="tag">English — Professional</span>
+        <span class="tag">Swedish — Elementary</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Software Consultant — IMI Supply Chain Solutions</h3>
+            <span class="timeline-date">Sep 2025 – Present · Hässleholm</span>
+          </div>
+          <p class="timeline-company">Sigma Technology Software Solutions</p>
+          <ul>
+            <li>Built a Python-based pipeline transforming real customer data from Excel to JSON for realistic, data-driven one-day simulation scenarios.</li>
+            <li>Collaborated on optimizing the pick order release algorithm (prioritization, thresholds, consolidation rules) based on simulation results.</li>
+            <li>Implemented parallel JSON data loading and processing across persistent storage and in-memory structures to better reflect production behavior.</li>
+            <li>Extended and maintained unit tests for release logic and infrastructure, improving reliability and catching edge cases early.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>System Consultant — NIOX VERO (Medical Device)</h3>
+            <span class="timeline-date">May 2025 – Aug 2025 · Gothenburg</span>
+          </div>
+          <p class="timeline-company">ALTEN Sweden</p>
+          <ul>
+            <li>Built REST endpoints with C#/.NET Minimal APIs for a mobile companion app connected to the NIOX VERO medical device.</li>
+            <li>Implemented JWT auth with refresh tokens and RBAC policies for access control.</li>
+            <li>Maintained OpenAPI/Swagger documentation and Postman collections for onboarding and testing.</li>
+            <li>Stack: C#, .NET Minimal API, SQL Server, Dapper, Azure Container Apps, Azure SQL, Blob Storage, Key Vault, Hangfire, OpenTelemetry.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Team Lead — on assignment at Meta</h3>
+            <span class="timeline-date">Aug 2023 – Apr 2025 · Lund</span>
+          </div>
+          <p class="timeline-company">ALTEN Sweden (via Sigma Connectivity)</p>
+          <ul>
+            <li>Built and enhanced scalable backend services and mobile features using Hack and React Native within a globally distributed Agile team.</li>
+            <li>Handled on-call reliability engineering, diagnosing and resolving issues across critical environments.</li>
+            <li>Guided sprint planning, mentored junior engineers, and contributed to internal frameworks and code review standards.</li>
+            <li>Coordinated with product owners and engineers across time zones under strict NDA and security protocols.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Data Service Lead — Proxy Voting Platform (Blockchain)</h3>
+            <span class="timeline-date">Jan 2017 – May 2023 · Dhaka</span>
+          </div>
+          <p class="timeline-company">NuArca</p>
+          <p class="timeline-note">Secure, scalable proxy voting platform for AST (American Stock Transfer), built on IBM Hyperledger Fabric for transparent, auditable, regulation-compliant voting across public companies.</p>
+          <ul>
+            <li>Architected a hybrid backend combining SQL Server and private blockchain (Hyperledger Fabric) to manage vote records and compliance workflows.</li>
+            <li>Designed secure REST APIs and microservices (Java/Spring Boot, Golang) bridging the blockchain and external applications.</li>
+            <li>Engineered analytics pipelines and dashboards for real-time voting summaries and post-event compliance reports.</li>
+            <li>Led system integration using Kafka, Docker, and Kubernetes; acted as Scrum Master across multiple time zones.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Senior Software Engineer Team Lead — WizNG (HMDA Compliance)</h3>
+            <span class="timeline-date">Dec 2014 – Dec 2016 · Dhaka</span>
+          </div>
+          <p class="timeline-company">Wolters Kluwer — Financial Services Solutions</p>
+          <p class="timeline-note">Led development of WizNG, a next-generation HMDA compliance and reporting system used by 8 of the top 10 US banks, built with C#, ASP.NET MVC, Web API, SQL Server, and AngularJS.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>System Developer — Trustpilot</h3>
+            <span class="timeline-date">May 2014 – Aug 2014 · Dhaka</span>
+          </div>
+          <p class="timeline-company">GraphicPeople</p>
+          <p class="timeline-note">Contributed to back-end scalability and performance for Trustpilot, an online customer review platform.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Senior Software Engineer — AML Compliance Solution</h3>
+            <span class="timeline-date">Feb 2012 – May 2014 · Dhaka</span>
+          </div>
+          <p class="timeline-company">Wolters Kluwer — Financial Services Solutions</p>
+          <p class="timeline-note">Developed and enhanced an Anti-Money Laundering compliance platform (Java, Spring, Hibernate, SQL Server, Intellinx) for US financial institutions.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Software Engineer — HMDA Wiz</h3>
+            <span class="timeline-date">Oct 2011 – Aug 2012 · Dhaka</span>
+          </div>
+          <p class="timeline-company">Wolters Kluwer — Financial Services Solutions</p>
+          <p class="timeline-note">Built the Edit Module for a web-based HMDA compliance and reporting tool using C# and Telerik RadGrid.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Software Engineer Intern / Software Engineer — Amar Hisahb POS</h3>
+            <span class="timeline-date">Sep 2010 – Sep 2011 · Dhaka</span>
+          </div>
+          <p class="timeline-company">ICT Alliance</p>
+          <p class="timeline-note">Developed a Bangla-language POS solution for SMEs, covering data, business logic, and UI layers.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        <div class="education-card">
+          <h3>Master's Degree, Data Science</h3>
+          <p class="edu-school">University of Skövde</p>
+          <p class="edu-date">Aug 2022 – Jun 2024</p>
+        </div>
+        <div class="education-card">
+          <h3>B.Sc., Computer Science and Engineering</h3>
+          <p class="edu-school">Ahsanullah University of Science and Technology</p>
+          <p class="edu-date">2006 – 2012</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container contact-inner">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>I'm always open to discussing back-end engineering, database performance, and simulation-driven projects.</p>
+      <div class="contact-links">
+        <a href="mailto:saifulislamsaaif@gmail.com" class="btn btn-primary">saifulislamsaaif@gmail.com</a>
+        <a href="https://www.linkedin.com/in/saifulislamsaaif/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn Profile</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Md Saiful Islam. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
